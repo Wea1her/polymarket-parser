@@ -279,8 +279,8 @@ class Settings(BaseSettings):
 ## 文档
 
 - [架构文档](docs/architecture.md) - 详细的技术架构说明
-- [技术文档](../docs/polymarket-trade-parser-technical.md) - 完整的技术实现文档
-- [产品需求文档](../discuss/polymarket-trade-parser-prd.md) - 产品需求和规格
+- [技术文档](docs/polymarket-trade-parser-technical.md) - 完整的技术实现文档
+- [产品需求文档](discuss/polymarket-trade-parser-prd.md) - 产品需求和规格
 
 ## 许可证
 
