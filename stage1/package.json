@@ -1,0 +1,39 @@
+{
+  "name": "polymarket-decoder",
+  "version": "1.0.0",
+  "description": "Polymarket 链上数据解码器 - 支持交易和市场参数解析",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "bin": {
+    "polymarket-cli": "./dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "cli": "node --loader ts-node/esm src/cli.ts",
+    "test": "vitest",
+    "test:run": "vitest run",
+    "dev": "tsc --watch"
+  },
+  "keywords": [
+    "polymarket",
+    "polygon",
+    "blockchain",
+    "decoder",
+    "web3"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "viem": "^2.21.54",
+    "commander": "^12.1.0",
+    "dotenv": "^16.4.7"
+  },
+  "devDependencies": {
+    "@types/node": "^20.17.10",
+    "typescript": "^5.7.3",
+    "vitest": "^1.6.0",
+    "ts-node": "^10.9.2"
+  }
+}
+

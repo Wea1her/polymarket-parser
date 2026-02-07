@@ -1,0 +1,40 @@
+{
+  "name": "polymarket-indexer",
+  "version": "1.0.0",
+  "description": "Polymarket 链上数据索引器 - 市场发现、交易同步和查询 API",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx watch src/demo.ts",
+    "demo": "tsx src/demo.ts",
+    "api": "tsx src/api/server.ts",
+    "test": "vitest",
+    "test:run": "vitest run"
+  },
+  "keywords": [
+    "polymarket",
+    "polygon",
+    "blockchain",
+    "indexer",
+    "web3"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "viem": "^2.21.54",
+    "better-sqlite3": "^11.8.1",
+    "fastify": "^5.2.2",
+    "commander": "^12.1.0",
+    "dotenv": "^16.4.7",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.17.10",
+    "@types/better-sqlite3": "^7.6.12",
+    "typescript": "^5.7.3",
+    "vitest": "^1.6.0",
+    "tsx": "^4.19.2"
+  }
+}

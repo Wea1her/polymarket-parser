@@ -1,0 +1,17 @@
+{
+  "description": "示例市场数据 - 用于测试市场解码器",
+  "market": {
+    "conditionId": "0x1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef",
+    "questionId": "0xabcdef1234567890abcdef1234567890abcdef1234567890abcdef1234567890",
+    "oracle": "0x1234567890123456789012345678901234567890",
+    "outcomeSlotCount": 2
+  },
+  "expectedOutput": {
+    "conditionId": "0x1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef",
+    "questionId": "0xabcdef1234567890abcdef1234567890abcdef1234567890abcdef1234567890",
+    "oracle": "0x1234567890123456789012345678901234567890",
+    "collateralToken": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+    "note": "yesTokenId 和 noTokenId 会根据哈希计算生成，无法预先知道确切值"
+  }
+}
+

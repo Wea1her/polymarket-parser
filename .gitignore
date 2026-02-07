@@ -1,33 +1,41 @@
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-pip-wheel-metadata/
-share/python-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-MANIFEST
+# Cursor 编辑器
+/.cursor/
 
-# Virtual Environment
-.venv/
-venv/
-ENV/
-env/
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# 编译输出
+dist/
+build/
+*.js.map
+*.d.ts.map
+
+# 环境变量
+.env
+.env.local
+.env.*.local
+
+# 数据库文件
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+
+# 数据目录
+data/
+!data/.gitkeep
+
+# 日志文件
+logs/
+*.log
+
+# 操作系统
+.DS_Store
+Thumbs.db
 
 # IDE
 .vscode/
@@ -35,30 +43,12 @@ env/
 *.swp
 *.swo
 *~
-.DS_Store
 
-# Logs
-logs/
-*.log
+# 测试覆盖率
+coverage/
+.nyc_output/
 
-# Environment variables
-.env
-.env.local
-.env.*.local
-
-# Testing
-.pytest_cache/
-.coverage
-htmlcov/
-.tox/
-
-# Temporary files
+# 临时文件
+tmp/
+temp/
 *.tmp
-*.bak
-*.swp
-analyze_tx.py
-find_tx.py
-
-# OS
-.DS_Store
-Thumbs.db
